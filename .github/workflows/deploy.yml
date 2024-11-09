@@ -39,4 +39,4 @@ jobs:
           sudo docker pull shyaminda/mern-payment-gateway:latest
           sudo docker stop mern-app || true
           sudo docker rm mern-app || true
-          sudo docker run -d --name mern-app -p 3005:3000 shyaminda/mern-payment-gateway:latest
+          sudo docker run -d --name mern-app -p 8085:8080 shyaminda/mern-payment-gateway:latest
